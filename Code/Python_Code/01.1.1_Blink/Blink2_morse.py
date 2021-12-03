@@ -80,6 +80,10 @@ def main():
 			led.off()
 			print("Led is off >>>")
 			sleep(1)
+		if i ==" ":
+			led.off()
+			print("Led is off >>>")
+			sleep(2)
 	return()
         
 #########################################################################
