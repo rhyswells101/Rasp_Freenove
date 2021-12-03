@@ -67,6 +67,7 @@ def main():
 
 	for i in result:
 		if i =="-":
+			print("dash")
 			led.on()
 			print("Led is on >>>")
 			sleep(1.5)
@@ -74,6 +75,7 @@ def main():
 			print("Led is off >>>")
 			sleep(1)
 		if i ==".":
+			print("dot")
 			led.on()
 			print("Led is on >>>")
 			sleep(0.5)
@@ -81,6 +83,7 @@ def main():
 			print("Led is off >>>")
 			sleep(1)
 		if i ==" ":
+			print("space")
 			led.off()
 			print("Led is off >>>")
 			sleep(2)
