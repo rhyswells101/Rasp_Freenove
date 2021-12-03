@@ -63,19 +63,21 @@ def main():
 	message=input("Enter a word you wish to put into Morse code: ")
 	# message = "GEEKS-FOR-GEEKS"
 	result = encrypt(message.upper())
-    for i in result:
-        if i =="-":
-            led.on()
-            sleep(1.5)
-            led.off()
-        elif i ==".":
-            led.on()
-            sleep(0.5)
-            led.off()
-        elif i ==" ":
-            led.on()
-            sleep(3.5)
-            led.off()
+
+	for i in result:
+		if i =="-":
+			led.on()
+        	sleep(1.5)
+        	led.off()
+		if i == ".":
+			led.on()	
+			sleep(0.5)
+			led.off()
+        if i ==" ":
+			led.on()
+			sleep(3.5)
+			led.off()
+	return()
         
 #########################################################################
 

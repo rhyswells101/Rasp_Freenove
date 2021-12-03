@@ -93,7 +93,7 @@ def main():
 	result = encrypt(message.upper())
 	# print (result)
 	for i in result:
-		if i =="-":
+		if i == "-":
 			print("a")
 		elif i ==".":
 			print("b")
