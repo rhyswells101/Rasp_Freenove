@@ -63,6 +63,7 @@ def main():
 	message=input("Enter a word you wish to put into Morse code: ")
 	# message = "GEEKS-FOR-GEEKS"
 	result = encrypt(message.upper())
+	print(result)
 
 	for i in result:
 		if i =="-":
@@ -79,5 +80,5 @@ def main():
 
 while True:
     main()
-    sleep(7)
+    sleep(4)
     print("Did you get the word?","\n")
