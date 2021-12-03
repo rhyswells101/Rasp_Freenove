@@ -67,10 +67,10 @@ def main():
 	for i in result:
 		if i =="-":
 			led.on()
-        	sleep(1.5)
-        	led.off()
-		if i == ".":
-			led.on()	
+			sleep(1.5)
+			led.off()
+		if i ==".":
+			led.on()
 			sleep(0.5)
 			led.off()
         if i ==" ":
