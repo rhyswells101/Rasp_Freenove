@@ -70,23 +70,23 @@ def main():
 			print("dash")
 			led.on()
 			print("Led is on >>>")
-			sleep(1.5)
+			sleep(0.75)
 			led.off()
 			print("Led is off >>>")
-			sleep(1)
+			sleep(0.5)
 		if i ==".":
 			print("dot")
 			led.on()
 			print("Led is on >>>")
-			sleep(0.5)
+			sleep(0.25)
 			led.off()
 			print("Led is off >>>")
-			sleep(1)
+			sleep(0.5)
 		if i ==" ":
 			print("space")
 			led.off()
 			print("Led is off >>>")
-			sleep(2)
+			sleep(1.5)
 	return()
         
 #########################################################################
