@@ -72,12 +72,14 @@ def main():
 			sleep(1.5)
 			led.off()
 			print("Led is off >>>")
+			sleep(1)
 		if i ==".":
 			led.on()
 			print("Led is on >>>")
 			sleep(0.5)
 			led.off()
 			print("Led is off >>>")
+			sleep(1)
 	return()
         
 #########################################################################
