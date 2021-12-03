@@ -68,12 +68,16 @@ def main():
 	for i in result:
 		if i =="-":
 			led.on()
+			print("Led is on >>>")
 			sleep(1.5)
 			led.off()
+			print("Led is off >>>")
 		if i ==".":
 			led.on()
+			print("Led is on >>>")
 			sleep(0.5)
 			led.off()
+			print("Led is off >>>")
 	return()
         
 #########################################################################
