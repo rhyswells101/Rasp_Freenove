@@ -7,6 +7,8 @@
 ########################################################################
 from gpiozero import LED, Button
 from signal import pause
+from time import sleep
+from Mods.mod1 import wait
 
 print ('Program is starting ... ')
 
@@ -16,6 +18,9 @@ button = Button(18) # define Button pin according to BCM Numbering
 def onButtonPressed(): 
     led.on()
     print("Button is pressed, led turned on >>>")
+    print("We now wait 2 seconds")
+    wait()
+    
     
 def onButtonReleased():
     led.off()
